@@ -23,6 +23,10 @@ export const routes: Routes=[{
         {
             path: '',
             loadChildren:'./pages/settings/settings.module#SettingsModule',
+        },
+        {
+            path: 'biblioteca',
+            loadChildren:'./pages/biblioteca/biblioteca.module#BibliotecaModule',
         }
     ]
 }
